@@ -1,16 +1,14 @@
-# flutter_application_1
+Explicación del Código
 
-A new Flutter project.
+    Estructura Básica:
+        CalcApp: El widget principal de la aplicación.
+        CalculatorScreen: El widget con estado que contiene la lógica y los widgets de la calculadora.
 
-## Getting Started
+    Validación de Números:
+        Usamos int.tryParse para intentar convertir el texto ingresado en un número entero. Si no es posible, mostramos un mensaje de error.
 
-This project is a starting point for a Flutter application.
+    Lista Desplegable:
+        Implementamos un DropdownButton para seleccionar la operación matemática.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    Cálculo y Mostrar Resultado:
+        La función _calculate se encarga de realizar la operación seleccionada y actualizar el resultado.
